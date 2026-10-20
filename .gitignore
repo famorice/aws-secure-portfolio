@@ -1,3 +1,6 @@
+# Website source code is maintained in a separate private repository
+/website/
+
 # Local .terraform directories
 .terraform/
 
