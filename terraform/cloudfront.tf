@@ -10,6 +10,7 @@ resource "aws_cloudfront_origin_access_control" "portfolio" {
 
 # Distribute the static website globally through CloudFront.
 resource "aws_cloudfront_distribution" "portfolio" {
+  aliases             = ["it.famory-sissoko.com"]
   enabled             = true
   is_ipv6_enabled     = true
   comment             = "AWS Secure Portfolio Website"
@@ -51,7 +52,9 @@ resource "aws_cloudfront_distribution" "portfolio" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true
+    acm_certificate_arn      = aws_acm_certificate_validation.portfolio.certificate_arn
+    ssl_support_method       = "sni-only"
+    minimum_protocol_version = "TLSv1.2_2021"
   }
 
   tags = {
