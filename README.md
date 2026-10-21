@@ -74,4 +74,6 @@ The Terraform configuration manages the S3 bucket and its security settings, Clo
 
 ## Architecture Documentation
 
-Detailed architecture diagrams, security decisions, and implementation notes are available in the `docs/` directory.
+- [Architecture Overview](docs/architecture.md) — Detailed infrastructure design and component interactions.
+- [Architecture Decision Records](docs/decisions.md) — Technical decisions, alternatives, and trade-offs.
+- [Security Architecture](docs/security.md) — Security controls, access management, encryption, and monitoring.
