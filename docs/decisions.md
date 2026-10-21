@@ -1,5 +1,8 @@
 # Architecture Decision Records
 
+**Author:** Famory Sissoko  
+**Project:** AWS Secure Portfolio
+
 This document explains the key architectural decisions behind AWS Secure Portfolio, including the alternatives considered and the trade-offs involved.
 
 ## ADR-001: Use Amazon S3 and CloudFront Instead of Amazon EC2

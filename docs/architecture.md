@@ -1,5 +1,7 @@
 # AWS Secure Portfolio — Architecture
 
+**Author:** Famory Sissoko  
+
 ## 1. Architecture Overview
 
 AWS Secure Portfolio is a serverless static website architecture designed around security, managed-service resilience, automated deployment, and cost optimization.

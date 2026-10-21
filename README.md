@@ -1,5 +1,7 @@
 # AWS Secure Portfolio
 
+**Author:** Famory Sissoko  
+
 A secure, serverless, and cost-optimized professional portfolio website hosted on AWS, with infrastructure provisioned using Terraform and a deployment pipeline prepared using GitHub Actions.
 
 ## Architecture
